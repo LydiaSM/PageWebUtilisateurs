@@ -44,17 +44,22 @@
                 Le front end se trouve dans le repository:
                 <a href="https://github.com/AideEtudiants/ProjetAngular">https://github.com/AideEtudiants/ProjetAngular</a> et vous y trouverez tous les fichiers necessaires pour lancer le projet Angular.<br>
                 Le back end se trouve dans le repository
-                <a href="https://github.com/AideEtudiants/ProjetSpringBoot">https://github.com/AideEtudiants/ProjetSpringBoot</a> et contient les fichiers necessaires pour lancer le projet SpringBoot.<br><br>
-                Il faut ensuite télécharger l'ensemble des fichiers contenus dans le front et ceux du back et les ouvrir dans l'IDE de votre choix, dans des fenetres differentes. De ce fait vous avez deux fenêtres ouvertes dans votre IDE contenant respectivement le front et le back.
+                <a href="https://github.com/AideEtudiants/ProjetSpringBoot">https://github.com/AideEtudiants/ProjetSpringBoot</a> et contient les fichiers necessaires pour lancer le projet SpringBoot.<br>
+                Il faut ensuite télécharger l'ensemble des fichiers contenus dans le front et ceux du back et les ouvrir dans l'IDE de votre choix, dans des fenetres differentes. De ce fait vous avez deux fenêtres ouvertes dans votre IDE contenant respectivement le front et le back.<br><br>
+
+                La base de données se trouve dans le fichier:
+                <a href="https://github.com/AideEtudiants/Documents-complementaires-et-README/blob/main/bdd.sql">https://github.com/AideEtudiants/Documents-complementaires-et-README/blob/main/bdd.sql.</a><br>
+                Le télechargement de <a href="https://www.oracle.com/database/technologies/xe-downloads.html">Database Oracle</a> et <a href="https://www.oracle.com/tools/downloads/sqldev-downloads.html">SQLDevelopper</a> est nécessaire pour avoir accès à la base de données.<br>
+
             </p><br>
 
             <h4><strong>Installations</strong></h4><br>
             <p class="text-justify">
+                Vous devez créer une connexion Oracle et ajouter cette connexion sur SQLDevelopper. Ensuite il suffit d'ajouter notre fichier contenant notre base de données.<br><br>
                 Lorsque vous clonnez le projet front, tapez "npm install" afin d'installer les dépendances nécessaires de Angular et par la suite "npm run build" afin de compiler et lancer le serveur avec la ligne de commande "ng serve".
                 Si la commande ng n’est pas reconnue sur le terminal, ouvrez PowerShell en tant qu'administrateur et entrez "Set-ExecutionPolicy ExecutionPolicy Unrestricted".<br><br>
                 Afin de compiler le projet Angular sans erreur, il faudra ajouter les materiaux de design angular avec cette commande: "ng add @angular/material".<br>
-                Pour ajouter la bibiothèque qui gère les teast en Angular, il faudra ajouter les services nécessaires avec les commandes suivantes: "npm install ngx-toastr --save", "npm install @angular/animations --save".<br><br>
-
+                Et pour ajouter la bibiothèque qui gère les teast, les commandes suivantes: "npm install ngx-toastr --save" et "npm install @angular/animations --save".<br><br>
                 Clonner le projet SpringBoot sur votre IDE en s'assurant que votre IDE a bien un compiler Java.
                 Lancer le projet SpringBoot avec le bouton run sur votre IDE.
                 Ensuite entrer cette url <a href="http://localhost:4200">http://localhost:4200</a> afin d'afficher le résultat de l'API
